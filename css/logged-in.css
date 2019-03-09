@@ -1,0 +1,48 @@
+#wpadminbar{
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.19);
+    height: auto;
+}
+#wpadminbar,#wpadminbar .ab-sub-wrapper, #wpadminbar ul, #wpadminbar ul li{
+	color:#383838;
+}
+#wpadminbar .ab-top-menu>li.hover>.ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item, #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus {
+    background: transparent;
+    color: #383838;
+}
+#wpadminbar #wp-admin-bar-logo{
+    margin:.2em 0;
+}
+div#wpadminbar * {
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    color: dimgrey;
+    font-size: 1.005em;
+}
+#wpadminbar .ab-submenu .ab-item, #wpadminbar .quicklinks .menupop ul li a, #wpadminbar .quicklinks .menupop ul li a strong, #wpadminbar .quicklinks .menupop.hover ul li a, #wpadminbar.nojs .quicklinks .menupop:hover ul li a {
+    color: #5e5f61;
+}
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap{
+    width: 80px;
+}
+#adminmenu .wp-submenu{
+    left: 80px;
+}
+.dashicons-dashboard:before{
+    font-size: 1.8em;
+}
+#adminmenu div.wp-menu-name {
+    text-align: center;
+    font-size: .75em;
+    padding: 0 0 6px;
+}
+#adminmenu div.wp-menu-image {
+    float: none;
+    height: auto;
+    margin:0 auto;
+}
+#adminmenu a.wp-first-item.wp-has-submenu.wp-has-current-submenu.wp-menu-open.menu-top.menu-top-first.menu-icon-dashboard.menu-top-last {
+    display: block;
+    position: relative;
+    height: auto;
+    font-weight: 600;
+}
